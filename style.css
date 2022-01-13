@@ -1,0 +1,55 @@
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+text-align: center;
+}
+
+#logo {
+    color: white;
+    background-color: blue;
+     display: inline-block;
+     font-size: 32px;
+     font-weight: bold;
+     padding: 8px;
+     margin-top: 16px;
+}
+
+#logo-name {font-size: 32px;
+font-weight: bold;
+margin: 16px;
+
+}
+
+#navigation a {
+    color: gray;
+    padding: 8px;
+}
+#navigation a:hover {
+    color: blue;
+}
+
+#image img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#Main {
+    max-width: 800px;
+    margin: auto;
+}
+
+#footer {
+    text-align: center;
+    color: gray;
+    padding: 16px;
+}
+
+.background-dark {
+    background-color: #262626;
+}
+
+.blue {
+    color: gray;
+}
