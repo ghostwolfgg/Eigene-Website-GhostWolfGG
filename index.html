@@ -23,10 +23,10 @@
             <!--die Navigation-->
             <div id="navigation">
                 <a href="#Über-Mich">Über Mich</a>
-                <a href="Videos.html">Videos</a>
-                <a href="Projekte.html">Projekte</a>
+                <a href="./Videos.html">Videos</a>
+                <a href="./Projekte.html">Projekte</a>
                 <a href="#Projekte-einbinden">Projekte einbinden</a>
-                <a href="Bug melden.html">Bug melden</a>
+                <a href="./Bug melden.html">Bug melden</a>
             </div>
             <!--Bild auf startseite-->
             <div id="image">
@@ -38,29 +38,34 @@
             <Section id="Was-ist-der-Sinn-der-Website?"></Section>
             <h2>Was ist der Sinn der Website?</h2>
             <p>
-                Ich habe diese Website programmiert,damit ich euch etwas über mich erzählen kann.Hier werde ich auch Schulprojekte hochladen ZBB Powerpoint-Präsentation.
-                Aber auch andere Leute können ihre Projekte hier hochladen<a href="#Projekte-einbinden">Projekte einbinden</a>.
+              Ich habe diese Website programmiert, damit ich euch etwas über mich erzählen kann. Hier werde ich auch Schulprojekte hochladen ZBB PowerPoint-Präsentation. 
+              Aber auch andere Leute können ihre Projekte hier hochladen<a href="#Projekte-einbinden">Projekte einbinden</a>.
             </p>
             <!--Eigene Bio-->
             <Section id="Über-Mich"></Section>
             <h2>Über-Mich</h2>
             <p>
-                Mein Name ist Miguel ich bin Youtuber. Ich mache hauptsächlich Videos über Sea of Thieves.
+              Mein Name ist Miguel ich bin Youtuber. Ich mache hauptsächlich Videos über Sea of Thieves. 
             </p>
             <!--Projektbeschreibung-->
             <h2>Projekte</h2>
             <p>
               Es sind im Moment viele Projekte in Arbeit, 1 ist bereits fertig!
-              die anderen Projekte werden folgen
+               die anderen Projekte werden folgen 
             </p>
             <!--Projekt einbinden text-->
               <h2 id="Projekte-einbinden">Eigene Projekte einbinden</h2>
               <p>
-                Möchtest du dein eigenes Projekt bei uns Hochladen?
-                ZB eine Geschichte die du geschrieben hast, eine Powerpoint-Präsentation,oder etwas ganz anderes.
-                Trag einfach den Namen deines Projektes ein und lade es hoch, wichtig ist nur dass du deinen Künstlernamen mit dabei schreibst.dann werden wir das Projekt überprüfen und gucken,zu unserer Website passt.wenn ja hast du deinen eigenen Eintrag auf unserer Webseite.
+                Möchtest du dein eigenes Projekt bei uns Hochladen? ZB eine Geschichte die du geschrieben hast, 
+                eine PowerPoint-Präsentation, 
+                oder etwas ganz anderes. 
+                Trag einfach den Namen deines Projektes ein und lade es hoch, 
+                wichtig ist nur dass du deinen Künstlernamen mit dabei schreibst. 
+                Dann werden wir das Projekt überprüfen und gucken,
+                 ob das zu unserer Website passt. 
+                Wenn ja hast du deinen eigenen Eintrag auf unserer Webseite.
               </p>
-              <h6>PS:Wir freuen uns auf Ihre Projekte :)</h6>
+              <h6>PS: Wir freuen uns auf Ihre Projekte :) </h6>
               <!--Projekt einbinden Funktion-->
               <input type="hidden" name="form-name" value="contact">
 
@@ -69,7 +74,6 @@
               action="/pages/success"
               method="POST"
               data-netlify="true"
-              data-netlify-recaptcha="true"
             ></form>
 
             <form name="fileForm" data-netlify="true">
@@ -85,7 +89,6 @@
                     <input name="file" type="file"/>
                   </label>
                 </p>
-                <div data-netlify-recaptcha="true"> 
                 <button>Einreichen</button>
               </form>
               <p class="result"></p>

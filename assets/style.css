@@ -62,7 +62,8 @@ margin: 16px;
     color: gray;
 }
 
-video.responive-video {
+.responive-video {
     max-width: 300;
     height: auto;
 }
+.blue {color: rgb(132, 132, 241);}
