@@ -62,8 +62,34 @@ margin: 16px;
     color: gray;
 }
 
+
 .responive-video {
     max-width: 300;
     height: auto;
 }
 .blue {color: rgb(132, 132, 241);}
+
+
+/*Raninbow*/
+.raninbow {
+    font-size: 42px;
+    font-family: cursive;
+    text-align: center;
+    padding: auto;
+    -webkit-animation: anirain 20s linear infinite alternate;
+}
+
+@keyframes anirain {
+    0% {color: #00ffb9;}
+    10% {color: #00b9ff;}
+    20% {color: #002eff;}
+    30% {color: #00ffb9;}
+    40% {color: #00b9ff;}
+    50% {color: #002eff;}
+    60% {color: #00ffb9;}
+    70% {color: #00b9ff;}
+    80% {color: #002eff;}
+    90% {color: #00ffb9;}
+    100% {color: #00b9ff;}
+}
+/*Raninbow*/
