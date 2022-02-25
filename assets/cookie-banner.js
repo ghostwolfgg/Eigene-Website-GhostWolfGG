@@ -37,7 +37,7 @@ if(!accepted || accepted == "false") {
     titlespan.style.fontSize = "1.5rem"
     titlespan.innerHTML += "</br></br>"
 
-    contentspan.innerHTML = 'Ihre Sicherheit ist uns wichtig bitte lesen Sie sich die Datenschutzverordnung unserer Webseite <a href="./datenschutz.html">hier</a> durch und akzeptieren Sie sie';
+    contentspan.innerHTML = 'Ihre Sicherheit ist uns wichtig bitte lesen Sie sich die Datenschutzverordnung unserer Webseite <a href="./datenschutz.html">hier</a> und unser Impressum <a href="./impressum.html">hier</a> durch und akzeptieren Sie sie';
 
     btnrow.style.height = "200px";
     btnrow.style.position = "relative"
