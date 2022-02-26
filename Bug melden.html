@@ -31,7 +31,11 @@
     </p>
 
     <!--Funktion zur Daten Eintragung-->
-    <form name="contact" method="POST" data-netlify="true">
+    
+    <form data-netlify-recaptcha="true" 
+    netlify-honeypot="bot-field" 
+    name="contact" method="POST" 
+    data-netlify="true">
         <p>
           <label>Dein Name: <input type="text" name="name" /></label>   
         </p>
@@ -46,16 +50,16 @@
         <p>
           <label>Nachricht: <textarea name="message"></textarea></label>
         </p>
+        <!--<p class="hidden">
+          <label>
+            Füllen Sie dies nicht aus, wenn Sie ein Mensch sind: <input name="bot-field" />
+          </label>
+        </p>-->
+        <div data-netlify-recaptcha="true"></div>
         <p>
           <button type="submit">Send</button>
         </p>
       </form>
-
-
-
-
-
-
       <!--Copyright (impressum)-->
       <div id="footer">
         Copyright &#169; 2022 | Miguel Vickus Alle Rechte vorbehalten
