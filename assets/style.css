@@ -12,7 +12,7 @@ text-align: center;
 }
 /*Logo*/
 #logo {
-    color: white;
+    color:rgb(0, 183, 255);
     background-color: blue;
      display: inline-block;
      font-size: 32px;
@@ -34,7 +34,7 @@ margin: 16px;
     padding: 8px;
 }
 #navigation a:hover {
-    color: blue;
+    color: rgb(0, 183, 255);
 }
 /*navigation Ende*/
 
