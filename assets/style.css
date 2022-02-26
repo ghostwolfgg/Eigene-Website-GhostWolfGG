@@ -58,10 +58,13 @@ margin: 16px;
     background-color: #262626;
 }
 
-.gray {
-    color: gray;
+.font {
+    color: rgb(0, 183, 255);
 }
 
+.blue_ {
+    color: #002eff;
+}
 
 .responive-video {
     max-width: 300;
