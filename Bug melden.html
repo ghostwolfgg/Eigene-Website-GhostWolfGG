@@ -35,14 +35,16 @@
     name="Bug-melden" method="POST" 
     data-netlify="true">
         <p>
-          <label>Dein Name: <input type="text" name="name" /></label>   
+          <label>Optional Dein Name: <input type="text" name="name" /></label>   
         </p>
         <p>
-          <label>Deine E-Mail-Adresse: <input type="email" name="email" /></label>
+          <label>Optional E-Mail-Adresse: <input type="email" name="email" /></label>
         </p>
         <p>
           <label>Deine Grund: <select name="role[]" multiple>
-            <option value="Bug-melden">Bug melden</option>
+            <option value="bug-melden">Bug melden</option>
+            <option value="fehler-melden">Fehler Melden</option>
+            <option value="rechtschreibfehler">Rechtschreibfehler</option>
           </select></label>
         </p>
         <p>
@@ -55,6 +57,7 @@
         </p>-->
         <div data-netlify-recaptcha="true"></div>
         <p>
+          <div data-netlify-recaptcha="true"></div>
           <button type="submit">Send</button>
         </p>
       </form>
