@@ -5,21 +5,23 @@
 
 #body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 #top {
 text-align: center;
 }
 /*Logo*/
-#logo {
-    color:rgb(0, 183, 255);
+/*#logo {
+    color:#3fefef;
     background-color: blue;
+    filter: drop-shadow(0 0 10px #3fefef);
      display: inline-block;
      font-size: 32px;
      font-weight: bold;
      padding: 8px;
      margin-top: 16px;
-}
+}*/
 
 #logo-name {font-size: 32px;
 font-weight: bold;
@@ -30,11 +32,11 @@ margin: 16px;
 
 /*navigation*/
 #navigation a {
-    color: gray;
+    color: rgb(255, 255, 255);
     padding: 8px;
 }
 #navigation a:hover {
-    color: rgb(0, 183, 255);
+    color: rgb(202, 202, 202);
 }
 /*navigation Ende*/
 
@@ -43,9 +45,13 @@ margin: 16px;
     margin-bottom: 16px;
 }
 
+
+
 #Main {
     max-width: 800px;
     margin: auto;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
 }
 
 #footer {
@@ -55,7 +61,7 @@ margin: 16px;
 }
 
 .background-dark {
-    background-color: #262626;
+    background-color: rgb(255, 255, 255);
 }
 
 .font {
@@ -75,24 +81,40 @@ margin: 16px;
 
 /*Raninbow*/
 .raninbow {
-    font-size: 42px;
-    font-family: cursive;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+
     padding: auto;
-    -webkit-animation: anirain 20s linear infinite alternate;
+    color: #03925e;
+    filter: drop-shadow(0 0 10px #017047);
 }
 
-@keyframes anirain {
-    0% {color: #00ffb9;}
-    10% {color: #00b9ff;}
-    20% {color: #002eff;}
-    30% {color: #00ffb9;}
-    40% {color: #00b9ff;}
-    50% {color: #002eff;}
-    60% {color: #00ffb9;}
-    70% {color: #00b9ff;}
-    80% {color: #002eff;}
-    90% {color: #00ffb9;}
-    100% {color: #00b9ff;}
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    background-color: #04aa6d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #03915d;
+  }
 /*Raninbow*/
