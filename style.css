@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 
 body {
-  background: #EEEEF4;
+  background: #414141;
   color:#999;
   font-family:Roboto;
   overflow: hidden;
@@ -10,7 +10,7 @@ body {
 h1{
   font-weight:100;
   font-size:27pt;
-  color:#E43;
+  color:rgb(4, 0, 252);
 }
 
 p{font-weight:300;}
