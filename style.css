@@ -13,7 +13,9 @@ h1{
   color:rgb(4, 0, 252);
 }
 
-p{font-weight:300;}
+p{font-weight:300;
+  color:rgb(4, 0, 252)
+}
 
 .warning-content {
 	position:absolute;
