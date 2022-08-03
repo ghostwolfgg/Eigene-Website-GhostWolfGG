@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 
 body {
-  background: #616060;
+  background: #333450;
   color:#999;
   font-family:Roboto;
   overflow: hidden;
@@ -10,11 +10,14 @@ body {
 h1{
   font-weight:100;
   font-size:27pt;
-  color:rgb(4, 0, 252);
+  color:rgb(252, 151, 0);
 }
 
 p{font-weight:300;
-  color:rgb(252, 151, 0)
+  color:rgb(252, 151, 0);
+}
+
+a{color:rgb(252, 151, 0);
 }
 
 .warning-content {
