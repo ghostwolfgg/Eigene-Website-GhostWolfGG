@@ -408,7 +408,7 @@ body.is-instant:after {
 #image01 .frame {
     width: 8.375rem;
     border-radius: 100%;
-    border-color: #EBE8CC;
+    border-color: #333b85b2;
     border-style: solid;
     border-width: 11px;
     box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188);
@@ -459,7 +459,7 @@ p mark {
 }
 
 #text01 {
-    color: #EBE8CC;
+    color: #ffae00;
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.1rem;
     width: 100%;
@@ -482,7 +482,7 @@ p mark {
 }
 
 #text02 {
-    color: #EBE8CC;
+    color: #ff6600;
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     line-height: 2;
@@ -585,7 +585,7 @@ p mark {
 }
 
 #buttons01 .n01 {
-    background-color: #2799A8;
+    background-color: #66038d;
 }
 
 #buttons01 .n02 {
@@ -593,7 +593,7 @@ p mark {
 }
 
 #buttons01 .n03 {
-    background-color: #0C0D0F;
+    background-color: #0f0f0c;
 }
 
 #buttons01 .n04 {
@@ -889,7 +889,7 @@ p mark {
 }
 
 .icc-credits span::after {
-    background-image: linear-gradient(30deg, #A464A1 15%, #3B5DAD 85%);
+    background-image: linear-gradient(30deg, #eb6d6d 15%, #ff9a48 85%);
     border-radius: inherit;
     box-shadow: 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.25);
     content: '';
@@ -927,7 +927,7 @@ p mark {
 }
 
 #credits span {
-    color: rgba(235, 232, 204, 0.498);
+    color: rgba(255, 230, 0, 0.623);
     margin-top: 1.5rem !important;
 }
 
